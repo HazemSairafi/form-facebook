@@ -1,0 +1,141 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>form</title>
+<style> body {
+    text-align: center;
+}
+
+.head {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 25px;
+    color: #1877f2;
+    display: block;
+    line-height: 18px;
+}
+
+.input {
+    border: #f5f6f7 solid 1px;
+    border-radius: 4px;
+    width: 350px;
+    height: 15px;
+    font-size: 14px;
+    padding: 12px;
+    text-shadow: none;
+    background: #f5f6f7;
+    text-align: start;
+    text-rendering: auto;
+    color: -internal-light-dark(black, white);
+}
+
+.button {
+    font-size: 17px;
+    height: 40px;
+    line-height: 40px;
+    /* display: block; */
+    width: 24%;
+    text-shadow: 0 -1px rgb(0 0 0 / 25%);
+    border: none;
+    border-radius: 3px;
+    position: relative;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    padding: 0 16px;
+    color: #fff;
+    background: none;
+    text-align: center;
+    vertical-align: top;
+    font-weight: bold;
+    background-color: #1877f2;
+    background-image: none;
+    border-radius: 4px;
+    bottom: -1px;
+    right: -1px;
+    left: -1px;
+    top: -1px;
+    border-image: none;
+    border-width: 0;
+    border-color: rgba(0, 0, 0, .15) rgba(0, 0, 0, .15) rgba(0, 0, 0, .26);
+    box-shadow: 0 1px 0 rgb(0 0 0 / 14%), inset 0 -1px 1px 0 rgb(0 0 0 / 3%);
+    border-radius: 4px;
+    border-style: solid;
+    inset: 0 -1px 1px 0 rgb(0 0 0 / 3%);
+    right: -1px;
+    left: -1px;
+    top: -1px;
+}
+
+.footer {
+    font-family: Helvetica, Arial, sans-serif;
+    color: #1877f2;
+    display: block;
+}
+
+.end {
+    font-size: 17px;
+    height: 40px;
+    line-height: 40px;
+    /* display: block; */
+    width: 20%;
+    text-shadow: 0 -1px rgb(0 0 0 / 25%);
+    border: none;
+    border-radius: 3px;
+    position: relative;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    padding: 0 16px;
+    color: #fff;
+    background: none;
+    text-align: center;
+    vertical-align: top;
+    font-weight: bold;
+    background-color: #00a400;
+    background-image: none;
+    border-radius: 4px;
+    bottom: -1px;
+    right: -1px;
+    left: -1px;
+    top: -1px;
+    border-image: none;
+    border-width: 0;
+    border-color: rgba(0, 0, 0, .15) rgba(0, 0, 0, .15) rgba(0, 0, 0, .26);
+    box-shadow: 0 1px 0 rgb(0 0 0 / 14%), inset 0 -1px 1px 0 rgb(0 0 0 / 3%);
+    border-radius: 4px;
+    border-style: solid;
+    inset: 0 -1px 1px 0 rgb(0 0 0 / 3%);
+    right: -1px;
+    left: -1px;
+    top: -1px;
+}
+ </style>
+</head>
+
+<body>
+    <p class="head"> <strong>facebook</strong></p>
+    <form>
+        <!-- <label class="username" for="username" name="username"></label  > -->
+        <input type="email" name="email" id="email" placeholder="email" required class="input"> <br> <br>
+        <!-- <label for="password">password</label> -->
+        <input class="input" type="password" name="password" id="password" placeholder="passowrd" required>
+
+
+
+
+
+        <br><br>
+
+        <button class="button" type="submit" value="sign in">sign in</button>
+        <br>
+
+        <p class="footer"> Forgot your password ?</p>
+        <br>
+        <p>__________________________ or __________________________</p><br>
+        <button type="submit" value="sign in" class="end">Create an account</button   >
+    </form>
+</body>
+
+</html>
